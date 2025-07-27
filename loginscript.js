@@ -11,9 +11,9 @@
 (async function() {
     'use strict';
 
-    const puppetNames = ['', '', '']; // put your region names here
-    const puppets = ['', '', '']; // put your nation names here
-    const puppetPass = ['', '', '']; //put your nation passwords here
+    const puppetNames = ['Europeia', 'TO', 'TPoP'];
+    const puppets = ['emodea', 'lunagard', 'mamjul_and_korar'];
+    const puppetPass = ['isthismic0N', 'kaL3bfr13S', 'longscpproposal'];
 
     const headerContent = document.getElementsByTagName('h1')[0];
 
@@ -34,10 +34,6 @@
         linky.style.margin = '5px'
 
         headerContent.appendChild(linky);
-
-        headerContent.appendChild(linky);
-
-        linky.prepend(document.createElement('br'));
     }
 
 })()
