@@ -27,6 +27,13 @@
         linky.target = '_parent';
         linky.textContent = nationName;
         linky.style.fontSize = '20px';
+        linky.style.padding = '15px 25px';
+        linky.style.backgroundColor = '#363636ff';
+        linky.style.color = 'white';
+        linky.style.display = 'inline-block';
+        linky.style.margin = '5px'
+
+        headerContent.appendChild(linky);
 
         headerContent.appendChild(linky);
 
